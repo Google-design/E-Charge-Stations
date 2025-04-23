@@ -1,0 +1,50 @@
+2025-02-20T04:09:54+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 502 Bad Gateway
+Content-Type: text/plain; charset=utf-8
+Content-Length: 119
+X-Tt-Logid: 202502200409532B40F12E5155472453E8
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+x-tt-trace-host: 017a6c3a7189059e242a145b9a90246e62b0e46174bf616eaf35d9fd879da785e63d6a1c103fdeb8a245c2eb68cf2b10a947a8fa75336e2cbc3861be3eefa6292aa65761407d26fa055650eb9162fecbd8231f80e546502f489cd1bdec0ef27aeb0eacfa9664de1c67f0775678ae917bd8
+x-tt-trace-id: 00-2502200409532B40F12E5155472453E8-0DBECBD41562A08F-00
+Server: TLB
+X-Origin-Response-Time: 17,23.52.40.118
+X-Akamai-Request-ID: 2b1360e0.5fc947aa
+Date: Thu, 20 Feb 2025 04:09:54 GMT
+X-Cache: TCP_MISS from a2-23-177-136.deploy.akamaitechnologies.com (AkamaiGHost/11.8.2-cebd4885bf42ba1e815e293c69ad1d4a) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-52-40-118.deploy.akamaitechnologies.com (AkamaiGHost/11.8.2-cebd4885bf42ba1e815e293c69ad1d4a) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=164, origin; dur=17
+Server-Timing: inner; dur=9
+X-Parent-Response-Time: 177,2.23.177.136
+
+Bad Gateway | KRAKEND.BACKEND/3 - request failed/320202:connection is closed by peer while being in the connection pool
+2025-02-20T04:09:55+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+X-Tt-Logid: 2025022004095497375B38E561402452F9,2025022004095497375B38E561402452F9
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Server-Timing: inner; dur=91
+x-tt-trace-host: 017a6c3a7189059e242a145b9a90246e620a51be5ddf356bda436e2cab1f084aa4a9e76836fc51a7de83838ccd07ae4b75eaec2a4c1362018b6f86e2a344791d8d1e78018dc26d1cfa795b361949fcc40a63cef336ace8c92bb084e2f18d38df11
+x-tt-trace-id: 00-25022004095497375B38E561402452F9-100166A62D600849-00
+Server: TLB
+Content-Encoding: gzip
+Date: Thu, 20 Feb 2025 04:09:55 GMT
+Content-Length: 218
+X-Cache: TCP_MISS from a2-23-177-132.deploy.akamaitechnologies.com (AkamaiGHost/11.8.2-cebd4885bf42ba1e815e293c69ad1d4a) (-)
+Connection: close
+Vary: Accept-Encoding
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=4, origin; dur=329
+X-Origin-Response-Time: 330,2.23.177.132
+X-Akamai-Request-ID: 73aef425
+
+{"code":0,"msg":"ok","data":{"app_id":"7473348730364624912","app_secret":"999e9db8dad31252a50f1c1839a179b7aae5ad9d","external_data_key":"cd697b6e-0707-453d-9734-7078184310c4","redirect_uri":"https:\/\/echargestations.infinityfreeapp.com\/wp-admin\/"}}
+2025-02-20T20:30:59+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2025-02-20T20:31:00+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: Missing option "access_token"
+2025-02-20T20:31:13+00:00 DEBUG Tt4b_Pixel_Class::inject_initiate_checkout_event: hit InitiateCheckout
+2025-02-20T20:31:13+00:00 DEBUG Tt4b_Pixel_Class::inject_initiate_checkout_event: Missing option "access_token"
+2025-02-20T20:31:23+00:00 DEBUG Tt4b_Pixel_Class::inject_initiate_checkout_event: hit InitiateCheckout
+2025-02-20T20:31:23+00:00 DEBUG Tt4b_Pixel_Class::inject_initiate_checkout_event: Missing option "access_token"

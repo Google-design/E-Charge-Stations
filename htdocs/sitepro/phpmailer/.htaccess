@@ -1,0 +1,20 @@
+order allow,deny
+deny from all
+
+#### PERSISTENT CONTENT ####
+
+order allow,deny
+deny from all
+
+#### PERSISTENT CONTENT ####
+
+order allow,deny
+deny from all
+
+#### PERSISTENT CONTENT ####
+
+order allow,deny
+deny from all
+
+
+
